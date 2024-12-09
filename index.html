@@ -1,7 +1,149 @@
 <!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!DOCTYPE html>
+    <html>
+      <head>
+        <!-- TODO: Update the title of your website -->
+        <title>Christy Lam</title>
+
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="/styles.css" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Lateef&display=swap"
+          rel="stylesheet"
+        />
+        <script src="/script.js" defer></script>
+      </head>
+      <body>
+        <!-- TODO: Update the heading with the name of your website -->
+
+        <!-- TODO: Continue to add content to your homepage using your wireframe as a guide.-->
+        <!-- TODO: Add a <div> container around sections of your homepage. -->
+
+        <!-- TODO: Add a navigation bar  -->
+        <div class="container">
+          <nav>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="portfolio.html">Portfolio</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="about.html">About</a></li>
+            </ul>
+          </nav>
+        </div>
+        <!-- Audio -->
+        <!-- Audio -->
+        <audio id="myAudio" controls>
+          <source
+            src="https://cdn.glitch.com/ed8f50e1-72a3-4916-bc9b-8ba49e162723%2FVI%CC%80%20YE%CC%82U%20CU%CC%9B%CC%81%20%C4%90A%CC%82M%20%C4%90A%CC%82%CC%80U%20beatinstrumentalunoffical).MP4?v=1593012065954"
+            type="audio/ogg"
+          />
+          <source
+            src="https://cdn.glitch.com/ed8f50e1-72a3-4916-bc9b-8ba49e162723%2FVI%CC%80%20YE%CC%82U%20CU%CC%9B%CC%81%20%C4%90A%CC%82M%20%C4%90A%CC%82%CC%80U%20beatinstrumentalunoffical).MP4?v=1593012065954"
+            type="audio/mpeg"
+          />
+          Your browser does not support the audio element.</audio
+        ><br />
+
+        <button onclick="enableLoop()" type="button">Enable loop</button>
+        <button onclick="disableLoop()" type="button">Disable loop</button>
+        <button onclick="checkLoop()" type="button">Check loop status</button>
+
+        <script>
+          var x = document.getElementById("myAudio");
+
+          function enableLoop() {
+            x.loop = true;
+            x.load();
+          }
+
+          function disableLoop() {
+            x.loop = false;
+            x.load();
+          }
+
+          function checkLoop() {
+            alert(x.loop);
+          }
+        </script>
+        <!-- Audio -->
+        <!-- Audio -->
+
+        <div class="center">
+          <h1>Home</h1>
+        </div>
+
+        <div>
+          <h3>
+            Hey, I'm Christy Lam!
+          </h3>
+        </div>
+
+        <div>
+          <p>
+            Welcome to my personal website!
+          </p>
+        </div>
+
+        <div>
+          <img
+            src="https://cdn.glitch.com/ed8f50e1-72a3-4916-bc9b-8ba49e162723%2FIMG_4644.JPG?v=1592264611980"
+            width="200px"
+          />
+        </div>
+
+        <div>
+          <p>
+            I'm a rising senior at a performing arts school <br />majoring in
+            orchestra (I play the violin) and minoring<br />
+            in art. Besides art and violin, in my free time, I enjoy
+            <br />playing piano, playing ukulele, animating, composing music,
+            <br />listening to music, cooking, reading, and
+            journaling/scrapbooking! <br />As you can see, the arts is a huge
+            part of my life! If you'd<br />
+            like to check out my portfolio or read more about me, <br />check
+            out the options above. Other than that, have fun looking
+            <br />around my website and have a splendid day <br />♡ヾ(●⌒▽⌒●)ﾉ
+          </p>
+        </div>
+
+        <div class="footer">
+          <div class="footer1">
+            <h4>
+              Contact Me!
+            </h4>
+            <p>
+              Email: blacklammy2003@gmail.com
+            </p>
+            <h4>
+              Follow Me!
+            </h4>
+            <p>
+              Instagram: @smollblacklam
+              <br />Youtube: Christy Lam
+            </p>
+          </div>
+        </div>
+      </body>
+    </html>
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js" defer></script>
+  </body>
 </html>
