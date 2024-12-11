@@ -12,14 +12,15 @@ body {
 /* Navigation Bar Styling */
 .portfolio-head {
   display: flex;
-  justify-content: space-between; /* Adjusts spacing between buttons */
+  justify-content: space-between; /* Space between buttons */
   align-items: center;
   background-color: #f4f4f4; /* Light background for contrast */
   padding: 10px 20px; /* Adds spacing inside the nav bar */
   border: 1px solid #ccc; /* Optional border for styling */
   border-radius: 5px; /* Optional rounded corners */
-  width: 100%;
-  box-sizing: border-box;
+  width: 100%; /* Full width of the container */
+  box-sizing: border-box; /* Includes padding in the width calculation */
+  margin-bottom: 20px; /* Add spacing below the nav bar */
 }
 
 /* Filter Buttons Styling */
@@ -41,15 +42,13 @@ body {
   background-color: #0056b3; /* Darker shade for hover effect */
 }
 
-/* Ensure portfolio items are below the navigation */
+/* Portfolio Items Section */
 .portfolio-items {
-  margin-top: 20px;
   display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
+  flex-wrap: wrap; /* Allows items to wrap to the next row */
+  gap: 20px; /* Space between items */
 }
-  
-  
+
   .item {
     width: 200px;
     text-align: center;
