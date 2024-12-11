@@ -46,11 +46,11 @@ body {
 .portfolio-items {
   display: flex;
   flex-wrap: wrap; /* Allows items to wrap to the next row */
-  gap: 20px; /* Space between items */
 }
 
-  .item {
-    width: 200px;
+  .item { 
+    max-width: 991px;
+    width: 100%;
     text-align: center;
     display: block;
   }
