@@ -3,26 +3,51 @@ body {
     color: grey;
   }
   
-  .filter-btn {
-    margin: 5px;
-    padding: 10px 20px;
-    border: none;
-    background: #007BFF;
-    color: white;
-    cursor: pointer;
-  }
-  
-  .filter-btn:hover {
-    background: #0056b3;
-  }
-  
-  .portfolio {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    padding: 20px;
-    justify-content: center;
-  }
+/* Portfolio Section */
+.portfolio {
+  margin-top: 20px;
+  padding: 0 20px;
+}
+
+/* Navigation Bar Styling */
+.portfolio-head {
+  display: flex;
+  justify-content: space-between; /* Adjusts spacing between buttons */
+  align-items: center;
+  background-color: #f4f4f4; /* Light background for contrast */
+  padding: 10px 20px; /* Adds spacing inside the nav bar */
+  border: 1px solid #ccc; /* Optional border for styling */
+  border-radius: 5px; /* Optional rounded corners */
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Filter Buttons Styling */
+.filter-btn {
+  flex: 1; /* Ensures buttons stretch equally */
+  margin: 5px;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 3px;
+  background-color: #007BFF; /* Button background color */
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.filter-btn:hover {
+  background-color: #0056b3; /* Darker shade for hover effect */
+}
+
+/* Ensure portfolio items are below the navigation */
+.portfolio-items {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
   
   
   .item {
