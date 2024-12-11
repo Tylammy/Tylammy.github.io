@@ -3,7 +3,18 @@ body {
     color: grey;
   }
   
+  .filter-btn {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    background: #007BFF;
+    color: white;
+    cursor: pointer;
+  }
   
+  .filter-btn:hover {
+    background: #0056b3;
+  }
   
   .portfolio {
     display: flex;
@@ -12,6 +23,7 @@ body {
     padding: 20px;
     justify-content: center;
   }
+  
   
   .item {
     width: 200px;
