@@ -3,6 +3,26 @@ body {
     color: grey;
   }
   
+  .portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+  }
+
+  .item {
+    width: 200px;
+    text-align: center;
+    display: block;
+  }
+  
+  .item img,
+  .item video {
+    max-width: 100%;
+    height: auto;
+  }
+  
   h1 {
     font-size: 45px;
     color: hotpink;
